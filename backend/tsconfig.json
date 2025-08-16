@@ -11,9 +11,19 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "@/*": ["./src/*"],
+      "@/database/*": ["./src/database/*"],
+      "@/routes/*": ["./src/routes/*"],
+      "@/controllers/*": ["./src/controllers/*"],
+      "@/middlewares/*": ["./src/middlewares/*"],
+      "@/utils/*": ["./src/utils/*"],
+      "@/types/*": ["./src/types/*"],
+    }
   },
   "ts-node": {
     "esm": true
   }
+  
 }
